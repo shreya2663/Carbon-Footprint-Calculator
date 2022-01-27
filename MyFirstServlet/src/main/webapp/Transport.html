@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Transport</title>
+        <link rel="stylesheet" href="./Style1.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="smallbox">
+                <p>TRANSPORT</p>
+            </div>
+            <div class="blank">
+                <div class="container2">
+                    <form action="trans">
+                        <div class="left">
+                            <div class="card"> 
+                                <p>Select all the ways you travel:</p>
+                                <label class="vehicle">
+                                    <input type="checkbox" name="vehicle1" value="Bike">Bike
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="vehicle">
+                                    <input type="checkbox" name="vehicle2" value="Car/Taxi">Car/Taxi
+                                </label>
+                                <label class="vehicle">
+                                    <input type="checkbox" name="vehicle3" value="Bus">Bus
+                                </label>
+                                <label class="vehicle">
+                                    <input type="checkbox" name="vehicle4" value="Metro">Metro
+                                </label>
+                                <label class="vehicle">
+                                    <input type="checkbox" name="vehicle5" value="Walk">Walk
+                                </label>
+                            </div>
+                            <div class="card">
+                                <p>Average total weekly travel by bus:</p>
+                                <select name="km">
+                                    <option>Select your option</option>
+                                    <option value="0-5 km">0-5 km</option>
+                                    <option value="5-10 km">5-10 km</option>
+                                    <option value="10-15 km">10-15 km</option>
+                                    <option value="15-20 km">15-20 km</option>
+                                    <option value="20 km">Above 20km</option>
+                                </select>
+                            </div>
+                            <div class="card">
+                                <p>What does your car consume:</p>
+                                <label class="petrol">
+                                    <input type="radio" name="petrol" id="petrol">Petrol
+                                </label>
+                                <label class="diesel">
+                                    <input type="radio" name="diesel" id="diesel">Diesel
+                                </label>
+                            </div>
+                            <div class="card">
+                                <p>Your Annual Mileage:</p>
+                                <select name="kms">
+                                    <option>Select your option</option>
+                                    <option>Under 1000</option>
+                                    <option>1000-3000</option>
+                                    <option>3000-5000</option>
+                                    <option>5000-7000</option>
+                                    <option>Under 1000</option>
+                                </select>
+                            </div>
+                            <div class="card">
+                                <p>My vehicle's combined fuel economy is...</p><br>
+                                <select name="mpg">
+                                    <option>Select your option</option>
+                                    <option>0-14</option>
+                                    <option>15-19</option>
+                                    <option>20-24</option>
+                                    <option>25-29</option>
+                                    <option>30-34</option>
+                                </select>
+                            </div>
+                            <div class="last">
+                               <input class="button" type="submit" value="Next" />
+                            
+                            </div>
+                        </div>
+                    </form>
+                        <div class="right">
+                            <img src="./cycle.jpeg" alt="home" width="550px" height="auto"/>
+                        </div>
+                    
+                </div>
+                
+            </div>
+            <div class="credits">
+                Made with ❤ by <a href="https://github.com/shreya2663/Carbon-Footprint-Calculator">Sidhanti</a> and <a href="https://github.com/shreya2663/Carbon-Footprint-Calculator">Shreya</a>
+            </div>
+        </div>
+            
+    </body>
+
+</html>

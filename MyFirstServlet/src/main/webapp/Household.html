@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style1.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+        </style>
+    <title>Household</title>
+</head>
+<body>
+    <div class="container">
+        <div class="smallbox">
+            <p>HOUSEHOLD</p>
+        </div>
+        <div class="blank">
+        <div class="container2">
+            <form action="add">
+                <div class="left">
+                    <div class="card">
+                        <p>Number of residents including yourself:</p>
+                        <select  name="number">
+                            <option>Select your option</option>
+                            <option value="14">1</option>
+                            <option value="12">2</option>
+                            <option value="10">3</option>
+                            <option value="8">4</option>
+                            <option value="6">5</option>
+                            <option value="4">6</option>
+                            <option value="2">7</option>
+                        </select>
+                    </div>
+                    <div class="card">
+                        <p>I live in a:</p></br>
+                        <select name="live">
+                            <option>Select your option</option>
+                            <option value="2">Detached single family home</option>
+                            <option value="2">Attached single family home</option>
+                            <option value="4">Apartment building(2 to 4 units)</option>
+                            <option value="10">Apartment building(5+ units)</option>
+                            <option value="5">Mobile home</option>
+                        </select>
+                    </div>
+                    <div class="card">
+                        <p>Size of housing:</p></br>
+                        <select name="size">
+                            <option>Select your option</option>
+                            <option value="1">Under 500 sq ft</option>
+                            <option value="2">500-999</option>
+                            <option value="3">1000-1499</option>
+                            <option value="4">1500-1999</option>
+                            <option value="5">2000-2499</option>
+                    </select>
+                    </div>
+                    <div class="card">
+                        <p>Do you use solar energy:</p>
+                        <label class="solar"><input type="radio" value="10">YES</label>
+                        <label class="solar"><input type="radio" value="220">NO</label>
+                    </div>
+                    <div class="card">
+                        <p>You are a:</p>
+                        <label class="food"><input type="radio" value="3">Vegetarian</label>
+                        <label class="food"><input type="radio" value="15">Non-Vegetarian</label>
+                    </div>
+                    <div class="last">
+                        <input class="button" type="submit" value="Next" />
+                </div>
+                </div>
+            </form>
+            
+            <div class="right">
+                <img src="./home.jpeg" alt="home" width="550px" height="auto"/>
+            </div>
+            
+                
+        </div>
+        </div>
+        <div class="credits">
+            Made with ❤ by <a href="https://github.com/shreya2663/Carbon-Footprint-Calculator">Sidhanti</a> and <a href="https://github.com/shreya2663/Carbon-Footprint-Calculator">Shreya</a>
+        </div>
+    </div> 
+</body>
+</html>

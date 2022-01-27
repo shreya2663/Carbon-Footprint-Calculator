@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.container{
+    /* height: scrollable; */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #B3D1AE;
+    justify-content: space-around;
+}
+
+.box1{
+    height:100vh;
+}
+.box{
+    position: relative;
+    width: 900px;
+    height: 410px;
+    margin: 100px;
+    /* left: 800px;
+    top: 80px; */
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 30px;
+}
+
+.back .dot {
+    position: absolute;
+    height: 270px;
+    width: 270px;
+    left: 520px;
+    top: 72px;
+    background-color: #B3D1AE;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.front .dot{
+    position: absolute;
+    height: 225px;
+    width: 225px;
+    left: 543px;
+    top: 94px;
+    background-color: #203429;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.text{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+    left: 20px;
+    top: 100px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #2D4B3B;
+}
+.result{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	color: #FFFFFF;
+	font-size: 100px;
+	justify-content: center;
+}
+h4{
+	color: #FFFFFF;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecf0f1;
+}
+
+h2{
+    text-align: center;
+    color: #2D4B3B;
+    font-size: 48px;
+    font-weight: 100;
+    margin-top: 90px;
+    padding: 1rem 0;
+}
+h5{
+    padding: 0.5rem 1rem;
+    line-height: 1.25;
+}
+
+.grid{
+    display: grid;
+    padding: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-auto-rows: minmax(100px, auto);
+  row-gap: 80px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: black;
+}
+.pic{
+    display: flex;
+    align-items: center;
+}
+.line1{
+    font-size: 20px;
+    font-weight: 700;
+}
+.line2{
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.line3{
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box3{
+    padding:20px;
+    padding-bottom:50px;
+}
+a{
+    text-decoration:none;
+    color:#fff;
+
+}
+a:hover {
+    color:#203429;
+  }
